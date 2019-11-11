@@ -21,14 +21,24 @@ public class CharacterStats : MonoBehaviour
     [SerializeField] int Inteligence = 3;
     [SerializeField] int Charisma = 3;
     [SerializeField] int Cunning = 3;
-    
+
+    //Define Enum
+    public enum Passion {Aquire, Destroy, Faction, Explore, Person};
+
+    [SerializeField] private Passion Passion1;
+    [SerializeField] private Passion Passion2;
+    [SerializeField] private Passion Passion3;
+
     //managers/generators
     private CharNameGenerator NameGenerator;
     private TraitManager TraitManager;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
+        Wealth = 0;
         NameGenerator = FindObjectOfType<CharNameGenerator>();
         TraitManager = FindObjectOfType<TraitManager>();
 
@@ -37,6 +47,10 @@ public class CharacterStats : MonoBehaviour
         PlayerOpinion = Random.Range(-2, 2); // sets starting opinion between -2, 2
         GenerateTraits();
         GenerateSkills();
+        Wealth += Random.Range(3, 20);
+        if(Inteligence > 0)
+            Wealth *= Mathf.RoundToInt(Inteligence / 10);
+
     }
 
     void GenerateTraits()

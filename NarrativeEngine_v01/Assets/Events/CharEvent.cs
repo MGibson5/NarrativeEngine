@@ -6,6 +6,8 @@ public abstract class CharEvent : MonoBehaviour
 {
     [SerializeField] private int ReqDrama;
     [SerializeField] private int ReqOpinion;
+    [SerializeField]enum EventType { Overcome, Riches, Fetch, Journy, Tragedy, Rebirth };
+
 
     [SerializeField] private CharEvent UnlockedEvents;
 

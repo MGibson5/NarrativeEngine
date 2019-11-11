@@ -120,6 +120,122 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &108205156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 108205158}
+  - component: {fileID: 108205157}
+  m_Layer: 0
+  m_Name: TestCharacter (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &108205157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108205156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &108205158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108205156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &431664646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431664648}
+  - component: {fileID: 431664647}
+  m_Layer: 0
+  m_Name: TestCharacter (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &431664647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431664646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &431664648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431664646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +327,122 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &776575955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 776575957}
+  - component: {fileID: 776575956}
+  m_Layer: 0
+  m_Name: TestCharacter (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &776575956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776575955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &776575957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776575955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &801368234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 801368236}
+  - component: {fileID: 801368235}
+  m_Layer: 0
+  m_Name: TestCharacter (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &801368235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801368234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 1
+  Passion3: 2
+--- !u!4 &801368236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801368234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &962759733
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,6 +576,122 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1128017144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1128017146}
+  - component: {fileID: 1128017145}
+  m_Layer: 0
+  m_Name: TestCharacter (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1128017145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128017144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &1128017146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128017144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1345123656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1345123658}
+  - component: {fileID: 1345123657}
+  m_Layer: 0
+  m_Name: TestCharacter (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1345123657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345123656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &1345123658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345123656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1442482030
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,6 +740,64 @@ MonoBehaviour:
   - {fileID: 856664899397399365, guid: 4dc8fb7d08885234d9371fb4823010ba, type: 3}
   - {fileID: 5706585551136201065, guid: b6e501edb61c90944abbebce2234a8e5, type: 3}
   - {fileID: 4325086247956848882, guid: b154076f004c8bb41a469b959971f199, type: 3}
+--- !u!1 &1496717283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1496717285}
+  - component: {fileID: 1496717284}
+  m_Layer: 0
+  m_Name: TestCharacter (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1496717284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496717283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &1496717285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496717283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590223250
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +925,180 @@ Transform:
   m_Father: {fileID: 1714345202}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1879970493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879970495}
+  - component: {fileID: 1879970494}
+  m_Layer: 0
+  m_Name: TestCharacter (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1879970494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879970493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &1879970495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879970493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1956241645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956241647}
+  - component: {fileID: 1956241646}
+  m_Layer: 0
+  m_Name: TestCharacter (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1956241646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956241645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &1956241647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956241645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1970742592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970742594}
+  - component: {fileID: 1970742593}
+  m_Layer: 0
+  m_Name: TestCharacter (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1970742593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970742592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953ec34b7cb3bdd4496f29eab9a40ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Wealth: 0
+  PlayerOpinion: 0
+  Role: 
+  StartingAmountOfTraits: 2
+  Traits: []
+  StartingSkillPoints: 10
+  Strength: 2
+  Agility: 2
+  Inteligence: 2
+  Charisma: 2
+  Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
+--- !u!4 &1970742594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970742592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2059992736
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +1140,9 @@ MonoBehaviour:
   Inteligence: 2
   Charisma: 2
   Cunning: 2
+  Passion1: 0
+  Passion2: 0
+  Passion3: 0
 --- !u!4 &2059992738
 Transform:
   m_ObjectHideFlags: 0
